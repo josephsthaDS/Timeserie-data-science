@@ -1,4 +1,5 @@
-#1. Title: Activity Recognition from a Single Chest-Mounted Accelerometer
+#
+1. Title: Activity Recognition from a Single Chest-Mounted Accelerometer
 	Updated Nov, 2013 , P. Casale, email: plcasale@ieee.org
 	
 2. Abstract: The dataset collects data from a wearable accelerometer mounted on the chest. Uncalibrated Accelerometer Data are collected from 15 participants performing 7 activities. The dataset is intended for Activity Recognition research purposes. It provides challenges for identification and authentication of people using motion patterns.
@@ -41,7 +42,10 @@
        Personal and Ubiquitous Computing, 16(5), 563-580, 2012
        available on https://www.researchgate.net/publication/227192676_Personalization_and_user_verification_in_wearable_systems_using_biometric_walking_patterns?ev=prf_pub
        
-       **## Time series classification solution summary ##**
+
+
+
+Time series classification solution summary
 
 To solve the time series features classification problem, I mainly explored data distribution with subjects and found it to be balanced. On the other hand, data was not evenly distributed across classes. I further checked spectrograms to identify unique time-frequency characteristics. Some unique characteristics I observed from spectrograms was that walking, going up/down, and walking and talking has repeating overtones in higher frequency bands. 
 
