@@ -40,6 +40,8 @@
        "Personalization and user verification in wearable systems using biometric walking patterns"
        Personal and Ubiquitous Computing, 16(5), 563-580, 2012
        available on https://www.researchgate.net/publication/227192676_Personalization_and_user_verification_in_wearable_systems_using_biometric_walking_patterns?ev=prf_pub
+       
+       **Solution Summary
 
 To solve the time series features classification problem, I mainly explored data distribution with subjects and found it to be balanced. On the other hand, data was not evenly distributed across classes. I further checked spectrograms to identify unique time-frequency characteristics. Some unique characteristics I observed from spectrograms was that walking, going up/down, and walking and talking has repeating overtones in higher frequency bands. 
 
